@@ -1,6 +1,6 @@
 ---
 type: grammar
-name: haskell.tmbundle
+name: blitzmax
 license: permissive
 curated: true
 ---

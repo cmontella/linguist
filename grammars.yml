@@ -1,20 +1,6 @@
 ---
 http://svn.edgewall.org/repos/genshi/contrib/textmate/Genshi.tmbundle/Syntaxes/Markup%20Template%20%28XML%29.tmLanguage:
 - text.xml.genshi
-http://svn.textmate.org/trunk/Review/Bundles/BlitzMax.tmbundle:
-- source.blitzmax
-http://svn.textmate.org/trunk/Review/Bundles/Cython.tmbundle:
-- source.cython
-http://svn.textmate.org/trunk/Review/Bundles/Forth.tmbundle:
-- source.forth
-http://svn.textmate.org/trunk/Review/Bundles/Parrot.tmbundle:
-- source.parrot.pir
-http://svn.textmate.org/trunk/Review/Bundles/SecondLife%20LSL.tmbundle:
-- source.lsl
-http://svn.textmate.org/trunk/Review/Bundles/VHDL.tmbundle:
-- source.vhdl
-http://svn.textmate.org/trunk/Review/Bundles/XQuery.tmbundle:
-- source.xquery
 https://bitbucket.org/Clams/sublimesystemverilog/get/default.tar.gz:
 - source.systemverilog
 - source.ucfconstraints
@@ -181,6 +167,9 @@ vendor/grammars/atom-fsharp/:
 - source.fsharp.fsi
 - source.fsharp.fsl
 - source.fsharp.fsx
+vendor/grammars/atom-language-1c-bsl:
+- source.bsl
+- source.sdbl
 vendor/grammars/atom-language-clean:
 - source.clean
 vendor/grammars/atom-language-purescript/:
@@ -201,6 +190,8 @@ vendor/grammars/awk-sublime:
 - source.awk
 vendor/grammars/bison.tmbundle:
 - source.bison
+vendor/grammars/blitzmax:
+- source.blitzmax
 vendor/grammars/boo/:
 - source.boo
 vendor/grammars/bro-sublime:
@@ -233,6 +224,8 @@ vendor/grammars/css.tmbundle:
 vendor/grammars/cucumber-tmbundle:
 - source.ruby.rspec.cucumber.steps
 - text.gherkin.feature
+vendor/grammars/cython:
+- source.cython
 vendor/grammars/d.tmbundle:
 - source.d
 vendor/grammars/dart-sublime-bundle:
@@ -270,6 +263,8 @@ vendor/grammars/fancy-tmbundle:
 - source.fancy
 vendor/grammars/fish-tmbundle:
 - source.fish
+vendor/grammars/forth:
+- source.forth
 vendor/grammars/fortran.tmbundle:
 - source.fortran
 - source.fortran.modern
@@ -291,9 +286,6 @@ vendor/grammars/graphviz.tmbundle:
 - source.dot
 vendor/grammars/groovy.tmbundle:
 - source.groovy
-vendor/grammars/haskell.tmbundle:
-- source.haskell
-- text.tex.latex.haskell
 vendor/grammars/haxe-sublime-bundle:
 - source.erazor
 - source.haxe.2
@@ -336,6 +328,8 @@ vendor/grammars/language-agc:
 - source.agc
 vendor/grammars/language-apl:
 - source.apl
+vendor/grammars/language-asn1:
+- source.asn
 vendor/grammars/language-babel/:
 - source.js.jsx
 - source.regexp.babel
@@ -364,6 +358,15 @@ vendor/grammars/language-gfm:
 - source.gfm
 vendor/grammars/language-graphql:
 - source.graphql
+vendor/grammars/language-haskell:
+- hint.haskell
+- hint.message.haskell
+- hint.type.haskell
+- source.c2hs
+- source.cabal
+- source.haskell
+- source.hsc2hs
+- text.tex.latex.haskell
 vendor/grammars/language-hy:
 - source.hy
 vendor/grammars/language-inform7:
@@ -391,6 +394,8 @@ vendor/grammars/language-renpy:
 vendor/grammars/language-restructuredtext:
 - text.restructuredtext
 vendor/grammars/language-roff:
+- source.ideal
+- source.pic
 - text.roff
 - text.runoff
 vendor/grammars/language-shellscript:
@@ -477,6 +482,8 @@ vendor/grammars/opa.tmbundle:
 - source.opa
 vendor/grammars/oz-tmbundle/Syntaxes/Oz.tmLanguage:
 - source.oz
+vendor/grammars/parrot:
+- source.parrot.pir
 vendor/grammars/pascal.tmbundle:
 - source.pascal
 vendor/grammars/pawn-sublime-language/:
@@ -529,6 +536,8 @@ vendor/grammars/scheme.tmbundle:
 - source.scheme
 vendor/grammars/scilab.tmbundle:
 - source.scilab
+vendor/grammars/secondlife-lsl:
+- source.lsl
 vendor/grammars/smali-sublime/smali.tmLanguage:
 - source.smali
 vendor/grammars/smalltalk-tmbundle:
@@ -573,6 +582,8 @@ vendor/grammars/sublime-opal/:
 - source.opalsysdefs
 vendor/grammars/sublime-pony:
 - source.pony
+vendor/grammars/sublime-rexx/:
+- source.rexx
 vendor/grammars/sublime-robot-plugin:
 - text.robot
 vendor/grammars/sublime-rust:
@@ -617,6 +628,8 @@ vendor/grammars/turtle.tmbundle:
 - source.turtle
 vendor/grammars/verilog.tmbundle:
 - source.verilog
+vendor/grammars/vhdl:
+- source.vhdl
 vendor/grammars/vue-syntax-highlight:
 - text.html.vue
 vendor/grammars/xc.tmbundle/:
@@ -624,5 +637,7 @@ vendor/grammars/xc.tmbundle/:
 vendor/grammars/xml.tmbundle:
 - text.xml
 - text.xml.xsl
+vendor/grammars/xquery:
+- source.xquery
 vendor/grammars/zephir-sublime:
 - source.php.zephir
